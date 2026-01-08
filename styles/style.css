@@ -4,104 +4,195 @@
     font-family: "Inter", sans-serif;
 }
 
-.container{
-    width: 95%;
+.container {
+    width: 85%;
+    max-width: 1600px;
     margin: 0 auto;
 }
-.btn{
+
+.btn {
     padding: 12px 16px;
     background-color: #469165;
     font-size: 16px;
-    font-weight:600;
+    font-weight: 600;
     color: #FFFFFF;
     border: none;
     border-radius: 4px;
 
 }
-.nav-content{
+
+.nav-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 90px;
 }
-.nav-content ul{
+
+.nav-content ul {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 28px;
 }
-.nav-content ul li a{
+
+.nav-content ul li a {
     text-decoration: none;
     font-size: 15px;
-    font-weight:500;
-    color:#000000;
+    font-weight: 500;
+    color: #000000;
 
 }
-.nav-content ul li{
+
+.nav-content ul li {
     list-style: none;
 
 }
-.nav-content .nav-logo img{
+
+.nav-content .nav-logo img {
     width: 130px;
     background-color: #FFFFFF;
 }
 
+.bg-color {
+    background:rgba(128, 128, 128, 0.068);
+}
 
+.section-banner{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
 #banner {
     background-image: url(/assets/hero-bg.png);
-    height: 250px;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 115px 120px 150px;
+    padding: 70px 120px 134px;
 }
-.banner-content{
-    /* width: 1000px; */
-}
- .banner-content .banner-btn-1{
+
+.banner-content .banner-btn-1 {
     padding: 8px 12px;
-    background-color:#FFFFFF;
-    border-radius:1000px;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
     border: none;
     font-size: 15px;
     font-weight: 500;
     color: #469165;
-    margin-bottom: 16px;
- }
- .banner-content h1{
+    margin: 40px 0 16px;
+}
+
+.banner-content h1 {
     font-size: 60px;
     font-weight: bold;
     color: #FFFFFF;
     margin-bottom: 16px;
- }
- .banner-content h1 .color{
+}
+
+.banner-content h1 .color {
     color: #30B868;
- }
- .banner-content p{
+}
+
+.banner-content p {
     font-size: 14px;
-    line-height:24px;
+    line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 32px;
- }
-  .banner-content .banner-btn-2{
+}
+
+.banner-content .banner-btn-2 {
     display: flex;
     justify-content: center;
-    gap:16px;
- }
- .banner-content .banner-btn-2 .btn-1{
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.banner-content .banner-btn-2 .btn-1 {
     padding: 16px;
     border: none;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600px;
     color: #FFFFFF;
-    background-color:#469165;
- }
- .banner-content .banner-btn-2 .btn-2{
+    background-color: #469165;
+}
+
+.banner-content .banner-btn-2 .btn-2 {
     padding: 16px;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600px;
     background-color: none;
- }
+}
+
+
+
+.section-content {
+    /* padding: 0 120px; */
+}
+
+.section-content .section-heading {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    margin-bottom: 44px;
+}
+.section-content .section-heading h3{
+    font-size: 45px;
+    font-weight: bold;
+    color: #001931;
+    margin-top: 20px;
+}
+.section-content .section-heading p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.section-content .section-card {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+.section-content .section-card .card {
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 0 8px #00000006;
+}
+
+.section-card .card img {
+    background-color:#F95555;
+    padding: 14px;
+    border-radius: 100%;
+    margin: 40px 0 10px;
+}
+.section-card .card h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.section-card .card p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #627382;
+}
+
+
+
+.section-container-1{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+.section-container-1 img{
+    width: 450px;
+    height: 450px;
+}
+.section-container-1 .sulotion{
+    
+}
