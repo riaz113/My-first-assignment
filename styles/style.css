@@ -76,7 +76,7 @@
 }
 
 #banner-container {
-    background-image: url(/assets/hero-bg.png);
+    background-image: url('../assets/hero-bg.png');
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
